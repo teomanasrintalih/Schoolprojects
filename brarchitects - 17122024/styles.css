@@ -1,0 +1,242 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html,body
+{
+    height: auto;
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    height: 7vh;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    letter-spacing: 4px;
+    top: 0;
+    position: sticky;
+    background-color: white;
+}
+
+#baslik
+{
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+    position: relative;
+    letter-spacing: 4px;
+}
+
+section
+{
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contact
+{
+    margin-top: 30vh;
+}
+
+#contact button
+{
+    padding: 15px;
+    margin-top: 15px;
+    border: 0;
+    border:1px solid gray;
+    width: 70%;
+    color: white;
+    background-color: black;
+}
+
+#contact input
+{
+    width: 70%;
+    border: 0px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#proj
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+hr{
+    width: 80%;
+    margin: 10px;
+}
+
+
+
+.bas
+{
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.yazi
+{
+    letter-spacing: 4px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+#BR
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+
+#logo
+{
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+
+}
+
+nav ul li a, #logo
+{
+    color: black;
+    padding: 15px;
+}
+
+
+.kutular .kutu
+{
+    width: 30vh;
+    height: 20vh;
+    background-color: aqua;
+    position: relative;
+    margin: 10px;
+}
+.kutular .kutu img
+{
+    width: 100%;
+    height: 100%;
+}
+.kutular .kutu p
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.kutular
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutkutular
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.aboutkutular .aboutkutu
+{
+    width: 38vh;
+    height: 25vh;
+    background-color: aqua;
+    position: relative;
+    margin: 10px;
+    text-align: left;
+}
+.aboutkutular .aboutkutu img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100);
+}
+.aboutkutular .aboutkutu p
+{
+    margin-top: 15px;
+}
+.name
+{
+    font-size: 23px;
+}
+.work
+{
+    color: gray;
+}
+
+.aboutkutu button
+{
+    width: 100%;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(rgba(255, 255, 255, 0.39), green, blue);
+}
+
+footer
+{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#araba
+{
+    margin-top: 15px;
+    width: 100%;
+    height: 70vh;
+}
